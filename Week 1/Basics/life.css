@@ -1,15 +1,18 @@
-h1 {
+h1,h2,h3,h4 {
     color: pink; 
 }
 h5{color: steelblue;
 
 }
-h6{color: gray;
+h6{color: green;
 
+}
+#top{
+    color: darkgoldenrod;
 }
 p{
     color:peru;
 }
 body{
-    background-color:blue
+    background-color:crimson
 }
