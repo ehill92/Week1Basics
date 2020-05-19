@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <script>
+<body style = "text-align: center; background-color: rgb(28, 173, 142);">
+
+    <h2 id = "today"></h2>
+    <button type = "button" style="background-color: rgb(223, 35, 75);" onclick = "displayCar(carTosell)">Click To Buy New Car</button>
+    <button onclick = "window.location.reload();" style ="background-color: slategray;">I Want A New Car</button>
+   
+   
+   
+   <script>
         function makeCar(){
             var makes = ["Chevy","GM","Fiat","Webville Motors","Tucker"];
             var models = ["cadillac","500","Bel-Air","Taxi","Torpedo"];
             var years = [155,1957,1948,1954,1961];
             var colors = ["red","blue","tan","yellow","white"];
-            var convertible = [true,false];
+            var convertible = ["soft top convertible","hard-top"];
 
             var rand1 = Math.floor(Math.random () * makes.length);
             var rand2 = Math.floor(Math.random () * models.length);
@@ -28,7 +35,10 @@
                 color:colors[rand4],
                 passengers:rand5,
                 convertible:convertible[rand6],
-                mileage:0
+                mileage:0,
+                drive:function () {
+                    alert(ZOom,zoOM);
+                }
 
             }
 
@@ -37,14 +47,11 @@
         }
 
         function displayCar(Acar) {
-            console.log(Acar);
+            document.getElementById("today").innerHTML = Acar.make + ": " + Acar.year  + " "+ Acar.model + " " + Acar.color + " " + Acar.passengers +"doors" + " " + Acar.convertible + "with " + Acar.mileage + "Miles";
         }
 
         var carTosell = makeCar();
         displayCar(carTosell);
-
-
-
 
     </script>
     

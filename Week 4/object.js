@@ -17,7 +17,7 @@ var CustomHome = {
     type:"Mansion ",
     size:"2075 sqft",
     materials:"Stone",
-    finishedBasement:true,
+    finishedbasement:true,
 }
 
 //Printing with an Object and Changing Properties.
