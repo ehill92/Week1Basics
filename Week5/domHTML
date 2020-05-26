@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erica's Site !!!</title>
+
+
+</head>
+
+<body>
+<h1>Erica's Site !!!</h1>
+<div id ="entry1">
+    <h2>Almost Summer</h2>
+    <p>
+        Its been really rainy but we know its spring so it was bound to
+        to happen,But summer is coming,its around the corner!!!
+   
+    </p>
+    <p>
+        I will be taking lots of pictures
+    </p>
+</div>
+</body>
+</html>
