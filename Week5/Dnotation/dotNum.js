@@ -35,3 +35,17 @@ console.log(result)
 result = filterInt('Infinity');
 
 console.log(result)
+
+result = Number.MAX_VALUE;
+
+console.log(result)
+
+result = Number.MIN_VALUE;
+
+console.log(result)
+
+var age = 98;
+
+result = Number.isInteger(age);
+
+console.log(result);
